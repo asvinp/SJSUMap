@@ -1,0 +1,91 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_frame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/campusmap"
+        />
+
+    <ImageView
+        android:layout_width="26dp"
+        app:srcCompat="@drawable/pin"
+        android:id="@+id/spgpin"
+        android:layout_height="49dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="420dp" />
+
+    <ImageView
+        android:layout_width="26dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/pin"
+        android:id="@+id/bbcpin"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="290dp" />
+
+    <ImageView
+        android:layout_width="26dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/pin"
+        android:id="@+id/supin"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="250dp" />
+
+    <ImageView
+        android:layout_width="26dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/pin"
+        android:id="@+id/yuhpin"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="320dp" />
+
+    <ImageView
+        android:layout_width="26dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/pin"
+        android:id="@+id/klpin"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="180dp" />
+
+    <ImageView
+        android:layout_width="26dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/pin"
+        android:id="@+id/engpin"
+        android:adjustViewBounds="false"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="190dp" />
+
+    <AutoCompleteTextView
+        android:text=""
+        android:hint="Type here to search..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchbox"
+        android:dropDownHeight="wrap_content" />
+
+    <ImageView
+        android:id="@+id/image_areas"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        android:src="@drawable/campusmapcolors"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/presence_online"
+        android:id="@+id/currentloc"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="185dp" />
+
+</FrameLayout>

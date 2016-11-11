@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="Engineering Building"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bldgname"
+            android:layout_weight="0.16"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:layout_weight="0.71">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/eng"
+                android:id="@+id/bldgimg"
+                android:layout_weight="0.5" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+                <TextView
+                    android:text="\n Charles W. Davidson College of Engineering,\n 1 Washington Square,\n San Jose,\n CA 95112"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bldgdetails"
+                    android:layout_weight="0.5"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:text=""
+                    android:hint=" Searching for location..."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/distance"
+                    android:layout_weight="0.5" />
+
+                <TextView
+                    android:text=""
+                    android:hint=" Searching for location..."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/duration"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:text="Street View"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/engbutton"
+            android:layout_weight="0.04" />
+    </LinearLayout>
+</RelativeLayout>
