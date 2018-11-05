@@ -1,4 +1,4 @@
-# SJSUMap
+# SJSUMap Android App
 
 ***
 Tested successfully on, 
