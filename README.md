@@ -1,5 +1,10 @@
 # SJSUMap
-First time to Github publish
+
+***
+Tested successfully on, 
+Nexus 6 API 22 (EMU)
+Samsung Galaxy Note 4
+***
 
 CMPE 277 - Assignment
 
