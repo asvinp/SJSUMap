@@ -1,4 +1,4 @@
-# SJSUMap Android App
+# SJSUMap
 ## [CMPE 277] - Android App with map of SJSU with actual locations
 
 ***
