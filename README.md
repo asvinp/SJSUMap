@@ -1,14 +1,11 @@
 # SJSUMap Android App
+## [CMPE 277] - Android App with map of SJSU with actual locations
 
 ***
 Tested successfully on, 
 Nexus 6 API 22 (EMU)
 Samsung Galaxy Note 4
 ***
-
-CMPE 277 - Assignment
-
-Create an app for a map of SJSU with actual locations
 
 User Interface:
 1. Map Screen : This will be the main screen of your application, and it will display the
@@ -27,8 +24,7 @@ b. Address
 c. Travel distance and time (walking or driving) from your current location to the
 building
 i. Google api should be used to retrieve the time estimation
-1. https://developers.google.com/maps/documentation/distance-matri
-x/intro
+1. https://developers.google.com/maps/documentation/distance-matrix/intro
 2. Hint: Use longitude , latitude of the user as origin and provided
 address in 2a as destination
 d. A photo of the building
